@@ -1,9 +1,5 @@
-body{
-    background-color: rgb(169, 119, 216);
-    text-align: center;
-    color: white;
-}
-
-h1{
-    font-size: 22px;
+* {
+    margin: 0
+    padding: 0
+    box-sizing: border-box;
 }
