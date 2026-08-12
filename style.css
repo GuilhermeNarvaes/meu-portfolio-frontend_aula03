@@ -1,3 +1,5 @@
+/*Configurações gerais*/
+
 * {
 
     margin: 0; 
@@ -19,4 +21,15 @@ body {
 
     line-height: 1.5;
 
+}
+
+/*Cabeçalho, Banner e Perfil*/
+
+.cabecalho {
+
+    background-color: #df9815;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
 }
