@@ -31,5 +31,9 @@ body {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    
+    border-bottom: 2px solid #5f08eb;
+
+    padding-bottom: 15px;
+
+    text-align: center;
 }
