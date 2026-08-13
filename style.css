@@ -12,6 +12,17 @@ body {
     line-height: 1.5;
 }
 
+.img-guimaraes {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-width: 50%;
+    border: 4px solid #460d39;
+    background-color: #1e293b;
+    flex-shrink: 0;                 /* Impede que a foto se esmague se a tela encolher */
+}
+
+
 /*Cabeçalho, Banner e Perfil*/
 .cabecalho {
     background-image: url(Pineapple-Poesia-Acustica.jpg);
