@@ -38,6 +38,21 @@ body {
     padding: 0 20px;
 }
 
+/* TÍTULO E PARÁGRAFO */
+h1 {
+    background-color: #252323; /* cor de fundo */
+    border: 2px solid #3d0c49;   /* grossura, tipo e cor da borda */
+    padding: 15px;             /* espaço interno */
+    border-radius: 8px;        /* cantos arredondados */
+    max-width: 1000px;          /* largura máxima */
+    font-size: 1.8rem;
+    color: rgb(243, 243, 243);
+    
+    /* Centraliza a caixa na tela e o texto no interior */
+    margin: 20px auto;         /* 'auto' nas laterais centraliza o elemento na página */
+    text-align: center;        /* Centraliza o texto dentro da caixa */
+}
+
 /* FOTO DE PERFIL CIRCULAR */
 .img-perfil {
     width: 130px;
@@ -47,21 +62,6 @@ body {
     border: 4px solid #460d39;
     margin-top: -65px; /* Sobe a foto para sobrepor o banner */
     background-color: #1e293b;
-}
-
-/* TÍTULO E PARÁGRAFO */
-h1 {
-    background-color: #252323; /* cor de fundo */
-    border: 2px solid #3d0c49;   /* grossura, tipo e cor da borda */
-    padding: 15px;             /* espaço interno */
-    border-radius: 8px;        /* cantos arredondados */
-    max-width: 600px;          /* largura máxima */
-    font-size: 1.8rem;
-    color: rgb(243, 243, 243);
-    
-    /* Centraliza a caixa na tela e o texto no interior */
-    margin: 20px auto;         /* 'auto' nas laterais centraliza o elemento na página */
-    text-align: center;        /* Centraliza o texto dentro da caixa */
 }
 
 h2 {
