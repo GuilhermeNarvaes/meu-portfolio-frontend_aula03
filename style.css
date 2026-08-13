@@ -17,7 +17,7 @@ body {
     height: 150px;
     object-fit:fill;
     border-width: 50%;
-    border: 4px solid #460d39;
+    border: 4px solid #faf9fa;
     background-color: #1e293b;
     flex-shrink: 0;                 /* Impede que a foto se esmague se a tela encolher */
 }
@@ -58,7 +58,7 @@ body {
     height: 130px;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #460d39;
+    border: 4px solid #fffeff;
     background-color: #1e293b;
     flex-shrink: 0;                 /* Impede que a foto se esmague se a tela encolher */
 }
