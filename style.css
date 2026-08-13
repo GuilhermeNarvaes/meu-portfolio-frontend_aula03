@@ -74,19 +74,12 @@ h1 {
             border-radius: 8px;        /* cantos arredondados */
             max-width: 400px;          /* largura máxima */
             font-size: 1.8rem;
+            color: black;
 }
 
 h2 {
        color: white;
        box-sizing: border-box;
-       margin-top: 12px;
-       font-size: 1.8rem;
-}
-
-h3 {
-       color: white;
-       box-sizing: border-box;
-       background-color: #460d39;
        margin-top: 12px;
        font-size: 1.8rem;
 }
