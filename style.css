@@ -68,11 +68,12 @@ body {
 
 /* TÍTULO E PARÁGRAFO */
 h1 {
-       color: white;
-       box-sizing: border-box;
-       background-color: #460d39;
-       margin-top: 12px;
-       font-size: 1.8rem;
+            background-color: #f4f4f4; /* cor de fundo */
+            border: 2px solid #3d0c49;    /* grossura, tipo e cor da borda */
+            padding: 15px;             /* espaço interno */
+            border-radius: 8px;        /* cantos arredondados */
+            max-width: 400px;          /* largura máxima */
+            font-size: 1.8rem;
 }
 
 h2 {
