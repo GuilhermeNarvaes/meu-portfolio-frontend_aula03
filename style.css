@@ -35,7 +35,7 @@ body {
 
     border-bottom: 2px solid #5f08eb;
 
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 
     text-align: center;
 
@@ -70,6 +70,7 @@ body {
 h1 {
        color: white;
        box-sizing: border-box;
+       background-color: #460d39;
        margin-top: 12px;
        font-size: 1.8rem;
 }
@@ -84,12 +85,13 @@ h2 {
 h3 {
        color: white;
        box-sizing: border-box;
+       background-color: #460d39;
        margin-top: 12px;
        font-size: 1.8rem;
 }
 
 p {
-       color: #94a3b8;
+       color: #b2c5e0;
        font-size: 1rem;
        margin-top: 4px;
 }  
