@@ -27,11 +27,10 @@ body {
 .cabecalho {
     background-image: url(Pineapple-Poesia-Acustica.jpg);
     background-color: rgb(27, 61, 27);
-    background-position: left;
+    background-position: right;
     background-blend-mode: overlay;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 2px solid #5f08eb;
-    padding-bottom: 1px;
     text-align: center;
     color: white; 
 }
