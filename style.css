@@ -20,7 +20,7 @@ body {
     background-blend-mode: overlay;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 2px solid #5f08eb;
-    padding-bottom: 25px;
+    padding-bottom: 1px;
     text-align: center;
     color: white; 
 }
