@@ -60,7 +60,7 @@ h1 {
     object-fit: cover;
     border-radius: 50%; /* O TRUQUE: Transforma o quadrado num círculo perfeito! */
     border: 4px solid #460d39;
-    margin-top: -15px; /* Sobe a foto para sobrepor o banner */
+    margin-top: 5px; /* Sobe a foto para sobrepor o banner */
     background-color: #1e293b;
 }
 
