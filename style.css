@@ -33,11 +33,9 @@ body {
 
 /* CONTAINER DE INFORMAÇÕES - Agora alinha a foto e o h1 lado a lado */
 .perfil-container {
-    display: flex;                  /* Transforma o container em Flexbox */
     align-items: center;            /* Alinha verticalmente imagem e h1 pelo centro */
     justify-content: center;        /* Centraliza o conjunto no meio da tela */
     gap: 15px;                      /* Espaço horizontal entre a imagem e a caixa do h1 */
-    max-width: 1000px;              /* Limita a largura total do grupo */
     margin: 20px auto;              /* Centraliza o container na página */
     padding: 0 20px;
 }
@@ -56,13 +54,9 @@ body {
 /* TÍTULO */
 h1 {
     background-color: #252323;
-    border: 2px solid #3d0c49;
-    padding: 10px 20px;            /* Espaçamento interno */
-    border-radius: 8px;
     font-size: 1.8rem;
     color: rgb(243, 243, 243);
     text-align: center;
-    flex-grow: 1;                   /* Permite que o h1 ocupe o espaço restante */
 }
 
 h2 {
