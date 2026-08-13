@@ -14,7 +14,6 @@ body {
 
 /*Cabeçalho, Banner e Perfil*/
 .cabecalho {
-    background-color: rgba(99, 55, 86, 0.85); 
     background-image: url(Pineapple-Poesia-Acustica.jpg);
     background-blend-mode: overlay;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
