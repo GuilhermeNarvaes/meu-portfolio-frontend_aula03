@@ -1,96 +1,78 @@
 /*Configurações gerais*/
-
 * {
-
     margin: 0; 
-
     padding: 0; 
-    
     box-sizing: border-box; 
-
-    
 }
 
 body {
-
     font-family: Verdana, Roboto;
-
-    background-color:#e0bb76;
-
+    background-color: #e0bb76;
     color: rgb(29, 3, 3); 
-
     line-height: 1.5;
-
 }
 
 /*Cabeçalho, Banner e Perfil*/
-
 .cabecalho {
-
-    background-color: #633756   ;
-
+    /* RGBA adiciona transparência (0.85 representa 85% de opacidade) */
+    background-color: rgba(99, 55, 86, 0.85); 
     background-image: url(Pineapple-Poesia-Acustica.jpg);
-
+    background-blend-mode: overlay; /* Mistura a cor transparente com a imagem */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
     border-bottom: 2px solid #5f08eb;
-
     padding-bottom: 25px;
-
     text-align: center;
-
-    color:white 
+    color: white; 
 }
 
 /* IMAGEM DE CAPA (BANNER) */
 .img-banner {
-         width: 100%; /* Ocupa toda a largura da tela */
-         height: 180px; /* Altura fixa */
-         object-fit: cover; /* Impede que a imagem fique esticada ou esmagada */
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: 180px; /* Altura fixa */
+    object-fit: cover; /* Impede que a imagem fique esticada ou esmagada */
 }
 
 /* CONTAINER DE INFORMAÇÕES */
 .perfil-container {
-          text-align: center; /* Centraliza o nome e a biografia */
-          padding: 0 20px;
+    text-align: center; /* Centraliza o nome e a biografia */
+    padding: 0 20px;
 }
 
 /* FOTO DE PERFIL CIRCULAR */
 .img-perfil {
-          width: 130px;
-          height: 130px;
-          object-fit: cover;
-          border-radius: 50%; /* O TRUQUE: Transforma o quadrado num círculo perfeito! */
-          border: 4px solid #460d39; /* Borda azul em volta da foto */
-          margin-top: -65px; /* Sobe a foto para sobrepor o banner */
-          background-color: #1e293b;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%; /* O TRUQUE: Transforma o quadrado num círculo perfeito! */
+    border: 4px solid #460d39;
+    margin-top: -65px; /* Sobe a foto para sobrepor o banner */
+    background-color: #1e293b;
 }
 
 /* TÍTULO E PARÁGRAFO */
 h1 {
-            background-color: #f4f4f4; /* cor de fundo */
-            border: 2px solid #3d0c49;    /* grossura, tipo e cor da borda */
-            padding: 15px;             /* espaço interno */
-            border-radius: 8px;        /* cantos arredondados */
-            max-width: 600px;          /* largura máxima */
-            font-size: 1.8rem;
-            color: black;
-            margin: 0;
-            display: flex;
-            justify-content: center; /* Centraliza na horizontal */
-            align-items: center;     /* Centraliza na vertical */
-            min-height: 100vh;       /* Faz o pai ter a altura total da tela */
+    background-color: #f4f4f4; /* cor de fundo */
+    border: 2px solid #3d0c49;   /* grossura, tipo e cor da borda */
+    padding: 15px;             /* espaço interno */
+    border-radius: 8px;        /* cantos arredondados */
+    max-width: 600px;          /* largura máxima */
+    font-size: 1.8rem;
+    color: black;
+    
+    /* Centraliza a caixa na tela e o texto no interior */
+    margin: 20px auto;         /* 'auto' nas laterais centraliza o elemento na página */
+    text-align: center;        /* Centraliza o texto dentro da caixa */
 }
 
 h2 {
-       color: white;
-       box-sizing: border-box;
-       margin-top: 12px;
-       font-size: 1.8rem;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 12px;
+    font-size: 1.8rem;
 }
 
 p {
-       color: #b2c5e0;
-       font-size: 1rem;
-       margin-top: 4px;
-}  
+    color: #b2c5e0;
+    font-size: 1rem;
+    margin-top: 4px;
+}
