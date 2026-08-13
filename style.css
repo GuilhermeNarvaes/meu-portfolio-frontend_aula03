@@ -51,13 +51,13 @@ body {
 
 /* TÍTULO E PARÁGRAFO */
 h1 {
-    background-color: #f4f4f4; /* cor de fundo */
+    background-color: #252323; /* cor de fundo */
     border: 2px solid #3d0c49;   /* grossura, tipo e cor da borda */
     padding: 15px;             /* espaço interno */
     border-radius: 8px;        /* cantos arredondados */
     max-width: 600px;          /* largura máxima */
     font-size: 1.8rem;
-    color: black;
+    color: rgb(243, 243, 243);
     
     /* Centraliza a caixa na tela e o texto no interior */
     margin: 20px auto;         /* 'auto' nas laterais centraliza o elemento na página */
