@@ -24,6 +24,7 @@ body {
     border: 2px solid #faf9fa;
     background-color: #1e293b;
     flex-shrink: 0;                 /* Impede que a foto se esmague se a tela encolher */
+    margin-top: 5px;
 }
 
 
