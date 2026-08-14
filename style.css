@@ -10,13 +10,13 @@ body {
     background-color: #33332e;
     color: rgb(255, 254, 254); 
     line-height: 1.5;
+    margin: 4px, 4px;
 }
 
 .img-Guimaraes {
     width: 150px;
     height: 150px;
     object-fit:fill;
-    margin: 4px, 4px;
     border-width: 50%;
     border: 8px solid #faf9fa;
     background-color: #1e293b;
