@@ -1,6 +1,6 @@
 /*Configurações gerais*/
 * {
-    margin: 0; 
+    margin: 4px, 4px; 
     padding: 0; 
     box-sizing: border-box; 
 }
@@ -10,7 +10,7 @@ body {
     background-color: #33332e;
     color: rgb(255, 254, 254); 
     line-height: 1.5;
-    margin: 4px, 4px;
+    
 }
 
 .img-Guimaraes {
@@ -28,7 +28,7 @@ body {
 .cabecalho {
     background-image: url(Pineapple-Poesia-Acustica.jpg);
     background-color: rgb(27, 61, 27);
-    background-position: -15cm;
+    background-position: -10cm;
     background-blend-mode: overlay;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 2px solid #5f08eb;
@@ -58,7 +58,7 @@ body {
     height: 130px;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #fffeff;
+    border: 8px solid #fffeff;
     background-color: #1e293b;
     flex-shrink: 0;                 /* Impede que a foto se esmague se a tela encolher */
 }
