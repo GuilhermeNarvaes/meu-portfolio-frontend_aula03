@@ -7,6 +7,7 @@
 
 body {
     font-family: Verdana, Roboto;
+    text-align: center;
     background-color: #33332e;
     color: rgb(255, 254, 254); 
     line-height: 1.5;
@@ -15,6 +16,7 @@ body {
 
 .img-Guimaraes {
     width: 150px;
+    text-align: center;
     height: 150px;
     object-fit:fill;
     border-width: 50%;
